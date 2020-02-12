@@ -58,7 +58,7 @@ elemLoginButton.onclick = function () {
     }
 
     if (username === "" && password === ""){
-        showMessage("Campos de textos vacios");
+        showMessage("Campos de textos vacios", true);
         
     }
 
